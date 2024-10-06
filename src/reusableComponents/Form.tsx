@@ -41,8 +41,8 @@ const Form: React.FC<Formprops> = ({
             placeholder="Password"
             className="border border-gray-300 p-2 rounded mb-4 w-full"
           />
-          <Button type="submit" className="w-full bg-amber-700">{label}</Button> 
-          <h1 className='flex justify-center pt-2'>
+          <Button type="submit" className="w-full">{label}</Button> 
+          <h1 className='flex justify-center pt-2 cursor-pointer'>
             {label === 'Sign Up' ? 'Go back to' : 'Not a user?'}
             <span className='px-2 text-amber-700' onClick={handleNavigate}>
               {label === 'Sign Up' ? 'Sign In' : 'Sign Up'}
