@@ -1,0 +1,8 @@
+{
+    "presets": [
+      "@babel/preset-env", // For modern JavaScript (ESNext)
+      "@babel/preset-react", // For JSX/React
+      "@babel/preset-typescript" // For TypeScript
+    ]
+  }
+  

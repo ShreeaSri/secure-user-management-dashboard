@@ -16,6 +16,7 @@ const SignIn: React.FC = () => {
     e.preventDefault();
     try {
       const response = await login(email, password);
+      console.log(response)
       dispatch(signIn(response.data.token));
       navigate('/dashboard')
     }catch (error:any) {
